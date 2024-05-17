@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face{
+  font-family: Grav;
+  src: url(./Assets/Gravity-Regular.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: High;
+  src: url(./Assets/built\ titling\ bd.otf);
+}
+
+:root{
+  --color-bdark: #0a1854;
+  --color-green: #ccfd54;
+  --color-bclear: #6290c2;
+  --color-white: #fff;
+  --font-main: Grav;
+  --font-second: High;
+}
+
+body{
+  text-align: center;
+  font-family: var(--font-main);
+  background-color: var(--color-bdark);
+  color: var(--color-white);
 }
