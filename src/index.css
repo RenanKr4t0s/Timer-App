@@ -20,6 +20,35 @@
 body{
   text-align: center;
   font-family: var(--font-main);
+  background-color: var(--color-bclear);
+  font-size: 2rem;
+  
+}
+
+.container{
   background-color: var(--color-bdark);
   color: var(--color-white);
+  width: 20rem;
+  height: 10rem;
+  margin: 4rem auto;
+  padding: 44px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
+.container button{
+  background-color: var(--color-green);
+  color: var(--color-bdark);
+  font-size: 2rem;
+  border-radius: 16px;
+  box-shadow:1px 1px .2em var(--color-bclear);
+}
+
+.container button:hover {
+  background-color: var(--color-bclear);
+  color: var(--color-green);
+}
+
+
